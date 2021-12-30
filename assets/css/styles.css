@@ -199,9 +199,7 @@ body {
 
 .leftside {
 	width: 753px;
-	min-height: 200px;
 	float: left;
-	background-color: #999;
 }
 
 .rightside {
@@ -243,4 +241,24 @@ body {
 .noticia-item a {
 	text-decoration: none;
 	color: #000;
+}
+
+.slideshow {
+	height: 335px;
+	background-color: #ccc;
+	overflow: hidden; /* Serve para  não ter barra de rolagem, mesmo que o conteudo da div seja maior que a propria div, fazendo um corte no conteudo para ficar dentro dela*/
+}
+
+.slideshowarea {
+	width: 10000000px;
+	height: 335px;
+	background-color: #ddd;
+}
+
+.slide {
+	height: 335px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
