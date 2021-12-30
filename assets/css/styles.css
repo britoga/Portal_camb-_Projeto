@@ -1,0 +1,153 @@
+body {
+	margin: 0;
+	font: arial;
+	font-size: 13px;
+}
+
+.topo {
+	height: 30px;
+	background-color: #333333;
+}
+
+.topo-interno {
+	width: 100%;
+	max-width: 1040px;
+	height: 30px;
+	margin: auto;
+}
+
+.topo-left {
+	width: 50%;
+	height: 30px;
+	float: left;
+}
+
+.topo-left ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.topo-left li {
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	padding-left: 16px;
+	color: white;
+}
+
+.topo-left li a {
+	text-decoration: none;
+	color: white;
+}
+
+.topo-left li a:hover {
+	color: blue;
+}
+
+.topo-right {
+	width: 50%;
+	height: 30px;
+	float: right;
+	text-align: right;
+	margin-top: 2px;
+}
+
+.topo-right a {
+	float: right;
+}
+
+.topo-right input {
+	float: right;
+}
+
+.topo-right img {
+	margin-left: 4px;
+}
+
+.topo-busca {
+	width: 110px;
+	height: 20px;
+	outline: 0;
+}
+
+.topo2 {
+	height: 95px;
+	color: #000;
+}
+
+.topo2-interno {
+	width: 100%;
+	max-width: 1040px;
+	height: 95px;
+	margin: auto;
+}
+
+.logo {
+	width: 230px;
+	height: 95px;
+	float: left;
+	margin-top: 5px;
+}
+
+.topo2 .banner {
+	width: 650px;
+	height: 80px;
+	float: right;
+	margin-top: 7px;
+	background-color: red;
+}
+
+.menu {
+	height: 40px;
+	background-color: red;
+}
+
+.menu .menu-interno {
+	width: 100%;
+	max-width: 1040px;
+	height: 40px;
+	margin: auto;
+}
+
+.menu ul {
+	/* margin: 0; */
+	padding: 0;
+	list-style: none;
+}
+
+.menu li {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.menu li:hover .submenu {
+	display: block;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.submenu {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	position: absolute;
+	display: none;
+}
+
+.submenuItem {
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+.submenuItem:hover {
+	background-color: #ff5555;
+}
