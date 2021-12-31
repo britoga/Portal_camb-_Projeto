@@ -230,6 +230,12 @@ body {
 	padding-bottom: 5px;
 }
 
+.widget-conteudo a {
+	text-decoration: none;
+	list-style: none;
+	padding: 3px;
+}
+
 .noticia-item {
 	font-size: 14px;
 	margin: 0px 10px;
