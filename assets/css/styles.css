@@ -268,3 +268,41 @@ body {
 	background-position: center;
 	background-size: cover;
 }
+
+.slideinfo {
+	height: 70px;
+	background-image: url('../images/slideshow_bg.png');
+	background-size: auto 70px;
+	margin-top: 265px;
+}
+
+.slideinfo_titulo {
+	font-size: 20px;
+	color: #fff;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+.slideinfo_subtitulo {
+	font-size: 14px;
+	color: #fff;
+	padding-top: 2px;
+	padding-left: 20px;
+}
+
+.slidebolinhas {
+	position: absolute;
+	width: 200px;
+	height: 20px;
+}
+
+.bolinha {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 5px;
+	cursor: pointer;
+	background-color: #dcdcdc;
+	border-radius: 10px;
+	margin-top: 5px;
+}
