@@ -306,3 +306,82 @@ body {
 	border-radius: 10px;
 	margin-top: 5px;
 }
+
+.content {
+	background-color: white;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	height: 100%;
+}
+
+.noticiaarea1 {
+	width: 420px;
+	height: 420px;
+	float: left;
+	height: 100%;
+}
+
+.noticiaarea2 {
+	width: 321px;
+	height: 420px 100%;
+	float: right;
+}
+
+.noticiaitem {
+	text-align: left;
+	height: 88px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	color: black;
+}
+
+.noticiaimg {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #ccc;
+	padding: 3px;
+	float: left;
+}
+
+.noticiatitulo {
+	float: left;
+	margin-left: 6px;
+	font-size: 16px;
+	width: 226px;
+	word-wrap: break-word;
+	margin-top: 2px;
+}
+
+.noticiainfo {
+	width: 226px;
+	font-size: 12px;
+	margin-left: 6px;
+	color: #999;
+	float: left;
+	word-wrap: break-word;
+	margin-top: 2px;
+}
+
+.noticiabig {
+	margin-left: 10px;
+}
+
+.noticiaitem .noticiabig {
+	width: 384px;
+	height: 222px;
+}
+
+.noticiabig .noticiaimgbig img {
+	width: 384px;
+	height: 222px;
+}
+
+.noticiabig .noticiatitulo {
+	font-size: 30px;
+	width: 384px;
+}
+
+.noticiabig .noticiainfo {
+	margin-top: 2px;
+}
